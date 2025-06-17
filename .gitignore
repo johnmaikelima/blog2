@@ -23,6 +23,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Scripts de segurança
+scripts/create-admin-user.js
+scripts/createAdminUser.ts
+scripts/create-*.js
+scripts/create-*.ts
+
 # Sistema operacional
 .DS_Store
 *.pem
