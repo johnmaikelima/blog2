@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Painel Administrativo para Blog
 
 Este é um painel administrativo moderno para gerenciamento de blog, construído com Next.js, TypeScript, Tailwind CSS e MongoDB.
@@ -91,3 +92,6 @@ src/
 ## Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+=======
+# blog2
+>>>>>>> 515e9ef2fde70c82ce4b89a13deb19e4493ff383
