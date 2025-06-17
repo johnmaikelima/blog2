@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { connectToDatabase } from '@/lib/mongoose';
 import { UserModel } from '@/models/User';
 import { withAdminAuth } from '../middleware';

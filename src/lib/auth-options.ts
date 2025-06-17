@@ -4,7 +4,7 @@ import { MongoDBAdapter } from '@auth/mongodb-adapter';
 import clientPromise from './mongodb';
 import { UserModel } from '@/models/User';
 import { connectToDatabase } from './mongoose';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { JWT } from 'next-auth/jwt';
 
 // Configuração do adaptador MongoDB

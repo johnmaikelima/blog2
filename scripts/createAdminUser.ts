@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import mongoose from 'mongoose';
-import bcrypt from 'bcrypt';
-import UserModel, { IUser } from '../src/models/User';
+import bcrypt from 'bcryptjs';
+import { UserModel, IUser } from '../src/models/User';
 
 // Carrega as variáveis de ambiente do .env.local
 require('dotenv').config({ path: '../.env.local' });
